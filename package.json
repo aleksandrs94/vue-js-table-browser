@@ -1,6 +1,8 @@
 {
   "name": "vuejs-table-browser",
   "version": "0.1.0",
+  "description": "## Project setup ``` npm install ```",
+  "main": "main.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -27,5 +29,16 @@
     "vue-cli-plugin-vuetify": "^2.0.4",
     "vue-template-compiler": "^2.6.10",
     "vuetify-loader": "^1.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandrs94/Vuejs-Table-Browser.git"
+  },
+  "keywords": [],
+  "author": "Aleksandrs Sprudzans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandrs94/Vuejs-Table-Browser/issues"
+  },
+  "homepage": "https://github.com/aleksandrs94/Vuejs-Table-Browser#readme"
 }

@@ -1,10 +1,5 @@
 <template>
-  <v-app-bar
-    app
-    dark
-    src="https://picsum.photos/1920/1080?random"
-    scroll-target="#scrolling-techniques-2"
-  >
+  <v-app-bar app dark src="https://picsum.photos/1920/1080?random">
     <template v-slot:img="{ props }">
       <v-img
         v-bind="props"
@@ -21,14 +16,16 @@
         width="40"
       />
 
-      <v-title class="shrink mt-1 hidden-sm-and-down">TableBrowser</v-title>
+      <v-toolbar-title class="shrink mt-1 hidden-sm-and-down">
+        TableBrowser
+      </v-toolbar-title>
     </div>
 
     <v-spacer />
 
-    <v-text>
+    <div>
       <Version />
-    </v-text>
+    </div>
   </v-app-bar>
 </template>
 
